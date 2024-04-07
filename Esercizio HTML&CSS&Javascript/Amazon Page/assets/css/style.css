@@ -1,0 +1,163 @@
+/************************* BODY ********************************************/
+
+body {
+    color: white;
+    background-color: #17191a;
+    padding-left:5% ;
+    padding-right:5% ;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1em;
+}
+
+/************************   HEADER ****************************************/
+
+.Logo {                                             
+    background-color: rgba(40, 56, 87, 0.993);
+}
+
+header.Logo{
+    text-align: left;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+
+.Logo2 {
+    width: 8vw;
+}
+
+
+/************************ NAV *******************************************/   
+/*Barra menu sotto titolo*/
+.lista-inline {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lista-inline li {
+    display: inline;
+    
+}
+
+.link {
+    background-color: rgb(63, 71, 94);
+    font-size: 0.8vw;
+    padding: 0.1em;
+    
+
+}
+
+nav {
+    text-align: left;
+}
+
+.bianco {
+    
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    margin: 1%;
+}
+
+/************************ MAIN ***************************************/
+
+main {
+    background-color: rgb(235, 238, 243);
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+
+}
+
+/************************ ARTICLE ************************************/    
+
+article {
+    background-color: rgb(233, 98, 8);  
+}
+article p {
+    font-size: 1vw;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+/************************ SECTION ************************************/          /*Immagine con i pacchi*/
+
+.pacchi {
+    background-image: url(../images/bg-image.png);
+    background-position: top;
+    background-size: 80%;
+    padding: 2%;
+    font-size: 1vw;
+}
+
+/**************** DIV IMMAGINI SEPARARTE *********/
+div {
+    color: black;
+}
+
+.dimensione {                         /*Dimensione Immagine*/                                  
+    text-align: center;
+    margin: 1%;
+    width: 23%;
+    height: 20vw;
+    border-radius: 3%;
+    box-shadow: 0.2em 0.2em 0.7em rgb(187, 185, 185) ;
+    float: left;
+}    
+#immagini_separate {
+    background-color: white;
+   padding-bottom:  2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    overflow: auto;
+}
+
+.Descrizione {                        /*Descrizione immagine*/
+    text-align: left;
+    font-weight:bold;
+    font-size: 1vw;
+    margin: 1%;
+}
+
+    
+
+.linkAzzurro {                        /*Link descrizione immagine*/
+    color: rgb(12, 155, 173);
+    text-decoration: none;
+    font-weight: bold;
+    font-size:0.6vw;
+    margin-left: 1%;
+}    
+
+/*************** DIV CORPO *************************/    
+.corpo {
+    margin-top: 2%;
+    padding-bottom: 2%;
+}
+.corpo img  {
+    width: 100%
+}
+.corpo figcaption {
+    text-align: center;
+}
+
+    /************************ ASIDE ******************/
+
+.linea {
+    color: white;
+    text-align: center;
+}
+
+/************************ FOOTER ******************/
+footer {
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+.Logo3 {
+    width: 15vw;
+    
+}
+
+ 
